@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="commonCode.h" />
+    <ClInclude Include="DisplayUtils.h" />
+    <ClInclude Include="Framebuffer.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="TimeQuery.h" />
+    <ClInclude Include="ShaderLoader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Init.h" />
+    <ClInclude Include="Log.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplayUtils.cpp" />
+    <ClCompile Include="Framebuffer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="TimeQuery.cpp" />
+    <ClCompile Include="ShaderLoader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Init.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="..\..\ext\gl_core_4_2.c" />
+    <ClCompile Include="..\..\ext\wgl_wgl.c" />
+  </ItemGroup>
+</Project>

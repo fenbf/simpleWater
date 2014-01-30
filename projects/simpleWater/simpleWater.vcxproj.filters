@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{a3bf74ab-576b-4bff-bb8e-40459e812243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{1a912597-6de0-4faa-bdeb-64d748010df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="simpleWater.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="waterSurface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="waterSurface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\renderSurface.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\renderSurface.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\renderSurfaceDebug.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\renderSurfaceDebug.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\waterDraw.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\waterPassThrough.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\waterUpdate.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\waterUpdateNormals.fs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\checkerboard.jpg">
+      <Filter>data</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

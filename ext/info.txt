@@ -1,0 +1,7 @@
+last update: 22 Sep 2013
+
+- AntTweakBar 116
+- freeglut 2.8.1 - compiled as release_static, changed Debug Info Format to "" from "Zi" (prog db)
+- GLEW - 1.10 - compiled as release static, changed Debug Info Format to "" from "Zi" (prog db)
+- soil(_ext)
+- glm-0.9.4.2
